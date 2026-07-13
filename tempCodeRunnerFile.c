@@ -21,7 +21,9 @@
 #include <stdio.h>
 int main() {
     int n, pos;
+    
     printf("Enter the number of elements in the array: ");
+   
     scanf("%d", &n);
     int arr[n];
     printf("Enter the elements of the array: ");
